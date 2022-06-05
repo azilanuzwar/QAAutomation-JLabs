@@ -1,0 +1,1 @@
+{"uuid":"ca2262a8-7af6-4984-b4b4-a33cf6e536da","name":"cobaqaautomation.cobamay2022.CobaBaseWebTest.tearDown","description":"","start":1654262372570,"stop":1654262372570,"children":["4604c2fe-6b63-4f7c-ac9f-ea944ca59d3c"],"afters":[{"name":"tearDown","status":"broken","stage":"finished","description":"","start":1654262372570,"stop":1654262372570}]}
