@@ -1,5 +1,5 @@
 Keterangan umum: 
-- semua tugas ada pada package: cobamay2022. 
+semua tugas ada pada package: cobamay2022. 
 
 Tugas 1
 Deskripsi: Membuat treemap dan treeset dengan minimum tiga anggota
