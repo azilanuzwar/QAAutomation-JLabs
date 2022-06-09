@@ -15,17 +15,4 @@ public class TugasBaseAPITest {
 	RequestSpecification registerJsonSpec;
 	String status;
 	
-//	@BeforeMethod
-//	public void register() {
-//		String payload = "{\"username\":\"makanbersama2\",\"email\":\"email.baru2@gmail.com\"}";
-//		
-//		Response responseRegister = given().spec(registerJsonSpec).body(payload).when().post("/register");
-//		
-//		status = responseRegister.getBody().jsonPath().get("Status");
-//		System.out.println("Status");
-//		String expectedStatus = "Created";
-//		
-//		assertEquals(responseRegister, expectedStatus, "Username or Email has been taken");
-//	}
-	
 }

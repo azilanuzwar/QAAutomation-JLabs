@@ -2,7 +2,6 @@ package cobaqaautomation.cobamay2022;
 
 import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
-
 import com.github.javafaker.Faker;
 
 import io.restassured.response.Response;

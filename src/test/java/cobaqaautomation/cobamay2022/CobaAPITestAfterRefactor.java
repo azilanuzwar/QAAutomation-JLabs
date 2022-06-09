@@ -29,6 +29,14 @@ public class CobaAPITestAfterRefactor extends CobaBaseAPITest{
 	}
 	
 	@Test
+	public void userAPI () {
+		Response responseDashboard = given().spec(loginJsonSpec).param("status", "completed")
+				.when().get("/build_cards");
+		
+		assertEquals(responseDashboard.statusCode(), 200);
+	}
+	
+	@Test
 	public void fakerTest() {
 		Faker faker = new Faker ();
 		System.out.println(faker.name().fullName());

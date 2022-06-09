@@ -31,7 +31,7 @@ b. Test
 - WebTestAfterPOM, yang bisa di run as testNG : [linksrc/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java)
 
 # Tugas 4
-Membuat automation test, yang bisa switch to iframe inbox, get text inbox dan syso untuk melihat hasilnya. 
+Membuat automation test pada yopmail.com, yang bisa switch to iframe inbox, get text inbox dan syso untuk melihat hasilnya 
 
 a. Main
 - BasePage : [src/main/java/cobaqaautomation/cobamay2022/yopmailpages/YopmailBasePage.java](./src/main/java/cobaqaautomation/cobamay2022/yopmailpages/YopmailBasePage.java)
@@ -45,11 +45,6 @@ b. Test
 Membuat automation test dengan menggunakan rest assured, juga menggunakan faker untuk menghasilkan username dan email. 
 Assert statusnya adalah 'created' dan status code nya adalah 201. 
 
-a. Main
-- BaseAPITest : [src/main/java/cobaqaautomation/cobamay2022/pages/TugasBaseAPITest.java](./src/main/java/cobaqaautomation/cobamay2022/pages/TugasBaseAPITest.java)
-- APITestAfterRefactor : [src/main/java/cobaqaautomation/cobamay2022/pages/TugasAPITestAfterRefactor.java](./src/main/java/cobaqaautomation/cobamay2022/pages/TugasAPITestAfterRefactor.java)
-
-b. Test
 - BaseAPITest : [src/test/java/cobaqaautomation/cobamay2022/TugasBaseAPITest.java](./src/test/java/cobaqaautomation/cobamay2022/TugasBaseAPITest.java)
 - RegisterKolak, yang bisa di run as testNG : [src/test/java/cobaqaautomation/cobamay2022/TugasRegisterKolak.java](./src/test/java/cobaqaautomation/cobamay2022/TugasRegisterKolak.java)
-- APITestAfterRefactor, yang bisa di run as testNG : [src/test/java/cobaqaautomation/cobamay2022/TugasAPITestAfterRefactor.java](./src/test/java/cobaqaautomation/cobamay2022/TugasAPITestAfterRefactor.java)
+- APITestAfterRefactor : [src/main/java/cobaqaautomation/cobamay2022/pages/TugasAPITestAfterRefactor.java](./src/test/java/cobaqaautomation/cobamay2022/TugasAPITestAfterRefactor.java)
