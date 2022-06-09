@@ -27,8 +27,8 @@ a. Main
 
 b. Test
 - BaseWebTest [src/test/java/cobaqaautomation/cobamay2022/CobaBaseWebTest.java](./src/test/java/cobaqaautomation/cobamay2022/CobaBaseWebTest.java)
-- CommonTest [src/test/java/cobaqaautomation/cobamay2022](./src/test/java/cobaqaautomation/cobamay2022/CobaCommonTest.java)
-- WebTestAfterPOM [linksrc/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java)
+- CommonTest, yang bisa di run as testNG [src/test/java/cobaqaautomation/cobamay2022](./src/test/java/cobaqaautomation/cobamay2022/CobaCommonTest.java)
+- WebTestAfterPOM, yang bisa di run as testNG [linksrc/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/CobaWebTestAfterPOM.java)
 
 # Tugas 4
 Membuat automation test, yang bisa switch to iframe inbox, get text inbox dan syso untuk melihat hasilnya. 
@@ -40,8 +40,8 @@ a. Main
 
 b. Test 
 - BaseWebTest [src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTest.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTest.java)
-- BaseWebTestAfterPOM [src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java)
-- CommonTest [src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java)
+- BaseWebTestAfterPOM, yang bisa di run as testNG [src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java)
+- CommonTest, yan bisa di run as testNG tetapi masih failure [src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java)
 
 # Tugas 5
 Membuat automation test dengan menggunakan rest assured, juga menggunakan faker untuk menghasilkan username dan email. 
@@ -52,9 +52,6 @@ a. Main
 - APITestAfterRefactor [src/main/java/cobaqaautomation/cobamay2022/pages/TugasAPITestAfterRefactor.java](./src/main/java/cobaqaautomation/cobamay2022/pages/TugasAPITestAfterRefactor.java)
 
 b. Test
-- BaseWebTest [src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTest.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTest.java)
-- BaseWebTestAfterPOM [src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/BaseWebTestAfterPOM.java)
-- CommonTest [src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java](./src/test/java/cobaqaautomation/cobamay2022/yopmail/CommonTest.java)
-
-
-
+- BaseAPITest [src/test/java/cobaqaautomation/cobamay2022/TugasBaseAPITest.java](./src/test/java/cobaqaautomation/cobamay2022/TugasBaseAPITest.java)
+- RegisterKolak, yang bisa di run as testNG [src/test/java/cobaqaautomation/cobamay2022/TugasRegisterKolak.java](./src/test/java/cobaqaautomation/cobamay2022/TugasRegisterKolak.java)
+- APITestAfterRefactor, yang bisa di run as testNG [src/test/java/cobaqaautomation/cobamay2022/TugasAPITestAfterRefactor.java](./src/test/java/cobaqaautomation/cobamay2022/TugasAPITestAfterRefactor.java)

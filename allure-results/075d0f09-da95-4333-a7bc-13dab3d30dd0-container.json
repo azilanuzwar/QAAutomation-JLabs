@@ -1,0 +1,1 @@
+{"uuid":"075d0f09-da95-4333-a7bc-13dab3d30dd0","name":"cobaqaautomation.cobamay2022.yopmail.BaseWebTest.setUp","description":"","start":1654739794384,"stop":1654739803564,"children":["db5b64ee-37b6-405f-9919-80f8e4afdcdc"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1654739794385,"stop":1654739803561}]}
