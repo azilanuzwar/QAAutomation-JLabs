@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import cobaqaautomation.cobamay2022.yopmailpages.*;
 
-public class BaseWebTestAfterPOM extends BaseWebTest{
+public class WebTestAfterPOM extends BaseWebTest{
 
 	YopmailLoginPage loginPage = new YopmailLoginPage (driver, explicitWait);
 	YopmailCommonPage commonPage = new YopmailCommonPage (driver, explicitWait);

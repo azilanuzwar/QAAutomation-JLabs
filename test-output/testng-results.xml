@@ -1,109 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-09T09:15:09 WIB" name="Default suite" finished-at="2022-06-09T09:15:35 WIB" duration-ms="25079">
+  <suite started-at="2022-06-09T09:41:11 WIB" name="Default suite" finished-at="2022-06-09T09:41:33 WIB" duration-ms="22393">
     <groups>
     </groups>
-    <test started-at="2022-06-09T09:15:09 WIB" name="Default test" finished-at="2022-06-09T09:15:35 WIB" duration-ms="25079">
-      <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPOM">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:10 WIB" name="setUp" finished-at="2022-06-09T09:15:13 WIB" duration-ms="3564" status="PASS">
+    <test started-at="2022-06-09T09:41:11 WIB" name="Default test" finished-at="2022-06-09T09:41:33 WIB" duration-ms="22393">
+      <class name="cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:11 WIB" name="setUp" finished-at="2022-06-09T09:41:21 WIB" duration-ms="10715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkOut()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:13 WIB" name="checkOut" finished-at="2022-06-09T09:15:14 WIB" duration-ms="724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:14 WIB" name="tearDown" finished-at="2022-06-09T09:15:14 WIB" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:14 WIB" name="setUp" finished-at="2022-06-09T09:15:16 WIB" duration-ms="2346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkOutOverview()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:16 WIB" name="checkOutOverview" finished-at="2022-06-09T09:15:18 WIB" duration-ms="1412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOutOverview -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:18 WIB" name="tearDown" finished-at="2022-06-09T09:15:18 WIB" duration-ms="142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:18 WIB" name="setUp" finished-at="2022-06-09T09:15:20 WIB" duration-ms="2023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testAddProducts()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:20 WIB" name="testAddProducts" finished-at="2022-06-09T09:15:21 WIB" duration-ms="504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:21 WIB" name="tearDown" finished-at="2022-06-09T09:15:21 WIB" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:21 WIB" name="setUp" finished-at="2022-06-09T09:15:23 WIB" duration-ms="2481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:23 WIB" name="testLogin" finished-at="2022-06-09T09:15:24 WIB" duration-ms="636" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:22 WIB" name="testLogin" finished-at="2022-06-09T09:41:24 WIB" duration-ms="1997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:24 WIB" name="tearDown" finished-at="2022-06-09T09:15:24 WIB" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:24 WIB" name="tearDown" finished-at="2022-06-09T09:41:24 WIB" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:24 WIB" name="setUp" finished-at="2022-06-09T09:15:26 WIB" duration-ms="2223" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:24 WIB" name="setUp" finished-at="2022-06-09T09:41:31 WIB" duration-ms="7013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginFailedWrongPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:26 WIB" name="testLoginFailedWrongPassword" finished-at="2022-06-09T09:15:26 WIB" duration-ms="234" status="PASS">
+        <test-method signature="testSwitchFrame()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:31 WIB" name="testSwitchFrame" finished-at="2022-06-09T09:41:33 WIB" duration-ms="2171" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginFailedWrongPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:26 WIB" name="tearDown" finished-at="2022-06-09T09:15:27 WIB" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:27 WIB" name="setUp" finished-at="2022-06-09T09:15:29 WIB" duration-ms="2174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFailedWrongUsername()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:29 WIB" name="testLoginFailedWrongUsername" finished-at="2022-06-09T09:15:29 WIB" duration-ms="317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFailedWrongUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:29 WIB" name="tearDown" finished-at="2022-06-09T09:15:29 WIB" duration-ms="131" status="PASS">
+        </test-method> <!-- testSwitchFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM@36b4091c]" started-at="2022-06-09T09:41:33 WIB" name="tearDown" finished-at="2022-06-09T09:41:33 WIB" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:29 WIB" name="setUp" finished-at="2022-06-09T09:15:31 WIB" duration-ms="2065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFailedWrongUsernameandPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:31 WIB" name="testLoginFailedWrongUsernameandPassword" finished-at="2022-06-09T09:15:32 WIB" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFailedWrongUsernameandPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:32 WIB" name="tearDown" finished-at="2022-06-09T09:15:32 WIB" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:32 WIB" name="setUp" finished-at="2022-06-09T09:15:34 WIB" duration-ms="2034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="yourInformation()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:34 WIB" name="yourInformation" finished-at="2022-06-09T09:15:34 WIB" duration-ms="694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- yourInformation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPOM@12d2ce03]" started-at="2022-06-09T09:15:34 WIB" name="tearDown" finished-at="2022-06-09T09:15:35 WIB" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPOM -->
+      </class> <!-- cobaqaautomation.cobamay2022.yopmail.BaseWebTestAfterPOM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,7 +9,13 @@ public class CommonTest extends BaseWebTest {
 	YopmailCommonPage commonPage = new YopmailCommonPage (driver,explicitWait);
 	
 	@Test
-	public void switchFrame(String frameName) {
-		driver.get().switchTo().frame(frameName);
+	public void testSwitching () {
+		
+		commonPage.openNewTab();
+		commonPage.switchFrame("ifmail");
+		CobaTestUtility.hardWait(3);
+
+	//public void switchFrame(String frameName) {
+	//driver.get().switchTo().frame(frameName);
 	}
 }

@@ -1,0 +1,1 @@
+{"uuid":"29e958ef-36b8-4e92-aecf-36477ee1923e","name":"cobaqaautomation.cobamay2022.yopmail.BaseWebTest.tearDown","description":"","start":1654742493455,"stop":1654742493599,"children":["c5c01a67-178c-46af-bcaf-e459449715ce"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1654742493455,"stop":1654742493599}]}

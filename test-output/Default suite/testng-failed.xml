@@ -5,9 +5,9 @@
     <classes>
       <class name="cobaqaautomation.cobamay2022.yopmail.CommonTest">
         <methods>
-          <include name="switchFrame"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="testSwitching"/>
         </methods>
       </class> <!-- cobaqaautomation.cobamay2022.yopmail.CommonTest -->
     </classes>
