@@ -17,8 +17,8 @@ public class CobaInventoryPageFactory extends CobaBasePage {
 			PageFactory.initElements(driver.get(),this);
 		}
 	
-	public String getProfileText() {
-		return getText(profileText);
+	public String getInventoryText() {
+		return getText(inventoryText);
 	}
 
 }

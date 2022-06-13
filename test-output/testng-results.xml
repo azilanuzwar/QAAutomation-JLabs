@@ -1,71 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-09T13:24:59 WIB" name="Default suite" finished-at="2022-06-09T13:25:10 WIB" duration-ms="11337">
+  <suite started-at="2022-06-13T13:52:02 WIB" name="Default suite" finished-at="2022-06-13T13:52:11 WIB" duration-ms="8960">
     <groups>
     </groups>
-    <test started-at="2022-06-09T13:24:59 WIB" name="Default test" finished-at="2022-06-09T13:25:10 WIB" duration-ms="11337">
-      <class name="cobaqaautomation.cobamay2022.yopmail.CommonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.CommonTest@f107c50]" started-at="2022-06-09T13:24:59 WIB" name="setUp" finished-at="2022-06-09T13:25:10 WIB" duration-ms="10809" status="PASS">
+    <test started-at="2022-06-13T13:52:02 WIB" name="Default test" finished-at="2022-06-13T13:52:11 WIB" duration-ms="8960">
+      <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory@1838ccb8]" started-at="2022-06-13T13:52:02 WIB" name="setUp" finished-at="2022-06-13T13:52:10 WIB" duration-ms="7799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSwitching()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.CommonTest@f107c50]" started-at="2022-06-09T13:25:10 WIB" name="testSwitching" finished-at="2022-06-09T13:25:10 WIB" duration-ms="180" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[No frame element found by name or id ifmail
-Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'HP-ARIFINTAHU', ip: '192.168.8.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ifmail
-Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'HP-ARIFINTAHU', ip: '192.168.8.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1044)
-at cobaqaautomation.cobamay2022.yopmailpages.YopmailCommonPage.switchFrame(YopmailCommonPage.java:47)
-at cobaqaautomation.cobamay2022.yopmail.CommonTest.testSwitching(CommonTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+        <test-method signature="testLogin()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory@1838ccb8]" started-at="2022-06-13T13:52:10 WIB" name="testLogin" finished-at="2022-06-13T13:52:11 WIB" duration-ms="821" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSwitching -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.yopmail.CommonTest@f107c50]" started-at="2022-06-09T13:25:10 WIB" name="tearDown" finished-at="2022-06-09T13:25:10 WIB" duration-ms="145" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory@1838ccb8]" started-at="2022-06-13T13:52:11 WIB" name="tearDown" finished-at="2022-06-13T13:52:11 WIB" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- cobaqaautomation.cobamay2022.yopmail.CommonTest -->
+      </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

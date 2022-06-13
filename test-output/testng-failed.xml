@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cobaqaautomation.cobamay2022.yopmail.CommonTest">
+      <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory">
         <methods>
+          <include name="testLogin"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testSwitching"/>
         </methods>
-      </class> <!-- cobaqaautomation.cobamay2022.yopmail.CommonTest -->
+      </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
