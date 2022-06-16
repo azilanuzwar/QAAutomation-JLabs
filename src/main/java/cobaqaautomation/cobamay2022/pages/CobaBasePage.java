@@ -10,7 +10,7 @@ public class CobaBasePage {
 	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	ThreadLocal<WebDriverWait> explicitWait = new ThreadLocal<WebDriverWait>();
 
-	public CobaBasePage(ThreadLocal<WebDriver> driver,ThreadLocal<WebDriverWait> explicitWait) {
+	public CobaBasePage(ThreadLocal<WebDriver> driver, ThreadLocal<WebDriverWait> explicitWait) {
 		this.driver = driver;
 		this.explicitWait = explicitWait;
 		

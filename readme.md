@@ -1,4 +1,4 @@
-Halo, nama saya Azila Nuzwar. Berikut adalah tugas ketika bootcamp QA Automation di Jakarta Labs dengan pengajarnya adalah Mas Andro.
+Halo, nama saya *Azila Nuzwar*. Berikut adalah tugas ketika bootcamp QA Automation di Jakarta Labs dengan pengajarnya adalah Mas Andro.
 
 # Tugas 1
 Deskripsi tugas: Membuat treemap dan treeset dengan minimum tiga anggota
@@ -57,3 +57,8 @@ Deskripsi tugas: Upload tugas 1-5 di Github.
 Deskripsi tugas: upload screenshot hasil console repository di Github menggunakan Jenkins. 
 
 - Maven test repository ini : [maventest_jenkins.jpeg](./maventest_jenkins.jpeg)
+
+# Tugas 8
+Deskripsi tugas: menambahkan file.jmx yang dikerjakan di kelas, dimana terdiri dari loadtest biasa, graphql, database loadtest dan weighted load test. 
+
+- File .jmx : [may2022.jmx](/may2022.jmx)

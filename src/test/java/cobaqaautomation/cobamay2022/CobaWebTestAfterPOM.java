@@ -56,6 +56,7 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 	    driver.get().findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_azila");
 	    driver.get().findElement(By.xpath("//input[@id=\"password\"]")).sendKeys("secret_sauce");
 	    driver.get().findElement(By.xpath("//input[@id='login-button']")).click();
+	    
 	    String actualText = driver.get().findElement(By.xpath("//h3[@data-test='error']")).getText();
 	    String expectedText = "Epic sadface: Username and password do not match any user in this service";
 	    

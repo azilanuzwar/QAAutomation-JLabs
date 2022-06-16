@@ -10,13 +10,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CobaLoginPageFactory extends CobaBasePage {
 	
 	@FindBy(xpath = "//input[@id='user-name']")
-	private WebElement username;
+	WebElement username;
 	
 	@FindBy(xpath = "//input[@id='password']")
-	private WebElement password;
+	WebElement password;
 	
 	@FindBy(xpath = "//input[@id='login-button']")
-	private WebElement loginBtn;
+	WebElement loginBtn;
+	
+	@FindBy(xpath= "//h3[@data-test='error']")
+	WebElement errorLogin;
+	
 	
 	public CobaLoginPageFactory(ThreadLocal<WebDriver> driver, ThreadLocal<WebDriverWait> explicitWait) {
 		super(driver, explicitWait);
@@ -39,5 +43,9 @@ public class CobaLoginPageFactory extends CobaBasePage {
 	}
 	public void clickLoginButton() {
 		loginBtn.click();
+	}
+	public String getTextError() {
+		// TODO Auto-generated method stub
+		return errorLogin.getText();
 	}
 }

@@ -8,8 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CobaInventoryPageFactory extends CobaBasePage {
 
-	@FindBy(xpath = "//span[@class='title']")
-	By profileText = By.xpath("//*[@id=\"header_container\"]/div[2]/span");
+	//@FindBy(xpath = "//span[@class='title']")
+	By productsText = By.xpath("//*[@id=\"header_container\"]/div[2]/span");
+	By buttonAddToCart = By.xpath("//*[@id=\"add-to-cart-sauce-labs-backpack\"]");
+	By cartNumber = By.xpath("//*[@id=\"shopping_cart_container\"]/a/span");
+	
 	
 	public CobaInventoryPageFactory(ThreadLocal<WebDriver> driver, ThreadLocal<WebDriverWait> explicitWait) {
 		super(driver, explicitWait);
@@ -17,8 +20,9 @@ public class CobaInventoryPageFactory extends CobaBasePage {
 			PageFactory.initElements(driver.get(),this);
 		}
 	
-	public String getInventoryText() {
-		return getText(inventoryText);
+	//public String getInventoryText() {
+		//By inventoryText;
+		//return getText(productsText);
 	}
 
-}
+

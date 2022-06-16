@@ -5,8 +5,8 @@
     <classes>
       <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory">
         <methods>
-          <include name="testLogin"/>
           <include name="setUp"/>
+          <include name="testLoginFailedWrongUsernameandPassword"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory -->
