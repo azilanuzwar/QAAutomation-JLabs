@@ -1,0 +1,1 @@
+{"uuid":"a364e903-b2b6-4c5a-aef0-727c74cae036","name":"cobaqaautomation.cobamay2022.CobaBaseWebTest.setUp","description":"","start":1655639610188,"stop":1655639616401,"children":["56229d16-14f2-408f-8ab1-212e7a26d0cb"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1655639610188,"stop":1655639616400}]}

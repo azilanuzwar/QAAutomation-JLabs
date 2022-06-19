@@ -109,7 +109,7 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 	    
 	}
 	@Test
-	public void yourInformation () {
+	public void checkOutStepOne () {
 		String username = "standard_user";
 		String password = "secret_sauce";
 		
@@ -122,9 +122,9 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 	    String expectedText = "CHECKOUT: YOUR INFORMATION";
 	    Assert.assertTrue(actualText.contains(expectedText));
 	} 
-	
+		
 	@Test
-	public void checkOutOverview () {
+	public void checkOutOverStepOne () {
 		String username = "standard_user";
 		String password = "secret_sauce";
 		
@@ -151,8 +151,95 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 		String expectedText2 = "Your order has been dispatched, and will arrive just as fast as the pony can get there!";
 	 	Assert.assertTrue(actualText2.contains(expectedText2));
 	}
-}
 
+	@Test
+	public void failedNotInputFirstName() {
+		String username = "standard_user";
+		String password = "secret_sauce";
+		
+		loginPage.loginWeb(username, password);
+		inventoryPage.addToCart();
+		cartPage.getCart();
+	    cartPage.checkOut();
+	    
+	    String firstName = "";
+		String lastName = "Nuzwar";
+	    String postalCode = "201197";
+		
+		informationPage.yourInformation(firstName, lastName, postalCode);
+								
+		String actualText = driver.get().findElement(By.xpath("//div[@class='error-message-container error']")).getText();
+		System.out.println(actualText);
+		String expectedText = "Error: First Name is required";
+	 	Assert.assertTrue(actualText.contains(expectedText));
+	}
+	
+	@Test
+	public void failedNotInputLastName() {
+		String username = "standard_user";
+		String password = "secret_sauce";
+		
+		loginPage.loginWeb(username, password);
+		inventoryPage.addToCart();
+		cartPage.getCart();
+	    cartPage.checkOut();
+	    
+	    String firstName = "Azila";
+		String lastName = "";
+	    String postalCode = "201197";
+		
+		informationPage.yourInformation(firstName, lastName, postalCode);
+						
+		String actualText = driver.get().findElement(By.xpath("//div[@class='error-message-container error']")).getText();
+		System.out.println(actualText);
+		String expectedText = "Error: Last Name is required";
+	 	Assert.assertTrue(actualText.contains(expectedText));
+	}
+	
+	@Test
+	public void failedNotInputPostalCode() {
+		String username = "standard_user";
+		String password = "secret_sauce";
+		
+		loginPage.loginWeb(username, password);
+		inventoryPage.addToCart();
+		cartPage.getCart();
+	    cartPage.checkOut();
+	    
+	    String firstName = "Azila";
+		String lastName = "Nuzwar";
+	    String postalCode = "";
+		
+		informationPage.yourInformation(firstName, lastName, postalCode);
+						
+		String actualText = driver.get().findElement(By.xpath("//h3[@data-test='error']")).getText();
+		System.out.println(actualText);
+		String expectedText = "Error: Postal Code is required";
+	 	Assert.assertTrue(actualText.contains(expectedText));
+	}
+	
+	@Test
+	public void failedNotInputCheckOutPage() {
+		String username = "standard_user";
+		String password = "secret_sauce";
+		
+		loginPage.loginWeb(username, password);
+		inventoryPage.addToCart();
+		cartPage.getCart();
+	    cartPage.checkOut();
+	    
+	    String firstName = "";
+		String lastName = "";
+	    String postalCode = "";
+		
+		informationPage.yourInformation(firstName, lastName, postalCode);
+								
+		String actualText = driver.get().findElement(By.xpath("//div[@class='error-message-container error']")).getText();
+		System.out.println(actualText);
+		String expectedText = "Error: First Name is required";
+	 	Assert.assertTrue(actualText.contains(expectedText));
+	}
+}
 
 
 

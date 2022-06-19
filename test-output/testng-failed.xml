@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory">
+      <class name="cobaqaautomation.cobamay2022.CobaWebTestAfterPOM">
         <methods>
+          <include name="failedNotInputLastName"/>
           <include name="setUp"/>
-          <include name="testLoginFailedWrongUsernameandPassword"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPageFactory -->
+      </class> <!-- cobaqaautomation.cobamay2022.CobaWebTestAfterPOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
