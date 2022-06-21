@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-09T06:28:52Z" name="Surefire suite" finished-at="2022-06-09T06:29:43Z" duration-ms="51410">
+  <suite started-at="2022-06-21T06:39:51Z" name="Surefire suite" finished-at="2022-06-21T06:40:45Z" duration-ms="54508">
     <groups>
     </groups>
-    <test started-at="2022-06-09T06:28:52Z" name="Surefire test" finished-at="2022-06-09T06:29:43Z" duration-ms="51410">
+    <test started-at="2022-06-21T06:39:51Z" name="Surefire test" finished-at="2022-06-21T06:40:45Z" duration-ms="54508">
       <class name="cobaqaautomation.cobamay2022.CobaWebTest">
-        <test-method signature="testLogin()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-09T06:29:15Z" name="testLogin" finished-at="2022-06-09T06:29:21Z" duration-ms="6220" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-21T06:40:14Z" name="testLogin" finished-at="2022-06-21T06:40:22Z" duration-ms="7055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLoginFailedWrongPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-09T06:29:21Z" name="testLoginFailedWrongPassword" finished-at="2022-06-09T06:29:27Z" duration-ms="6070" status="PASS">
+        <test-method signature="testLoginFailedWrongPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-21T06:40:22Z" name="testLoginFailedWrongPassword" finished-at="2022-06-21T06:40:27Z" duration-ms="5751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFailedWrongPassword -->
-        <test-method signature="testLoginFailedWrongUsername()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-09T06:29:27Z" name="testLoginFailedWrongUsername" finished-at="2022-06-09T06:29:31Z" duration-ms="4054" status="PASS">
+        <test-method signature="testLoginFailedWrongUsername()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-21T06:40:27Z" name="testLoginFailedWrongUsername" finished-at="2022-06-21T06:40:32Z" duration-ms="5182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFailedWrongUsername -->
-        <test-method signature="testLoginFailedWrongUsernameandPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-09T06:29:31Z" name="testLoginFailedWrongUsernameandPassword" finished-at="2022-06-09T06:29:37Z" duration-ms="5507" status="PASS">
+        <test-method signature="testLoginFailedWrongUsernameandPassword()[pri:0, instance:cobaqaautomation.cobamay2022.CobaWebTest@56193c7d]" started-at="2022-06-21T06:40:32Z" name="testLoginFailedWrongUsernameandPassword" finished-at="2022-06-21T06:40:38Z" duration-ms="5593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFailedWrongUsernameandPassword -->
       </class> <!-- cobaqaautomation.cobamay2022.CobaWebTest -->
       <class name="cobaqaautomation.cobamay2022.CobaAPITest">
-        <test-method signature="loginAPI()[pri:1, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-09T06:29:37Z" name="loginAPI" finished-at="2022-06-09T06:29:39Z" duration-ms="2362" status="PASS">
+        <test-method signature="loginAPI()[pri:1, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-21T06:40:38Z" name="loginAPI" finished-at="2022-06-21T06:40:40Z" duration-ms="2044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAPI -->
-        <test-method signature="dashboardAPI()[pri:2, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-09T06:29:39Z" name="dashboardAPI" finished-at="2022-06-09T06:29:41Z" duration-ms="2003" status="PASS">
+        <test-method signature="dashboardAPI()[pri:2, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-21T06:40:40Z" name="dashboardAPI" finished-at="2022-06-21T06:40:43Z" duration-ms="2439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardAPI -->
-        <test-method signature="configAPI()[pri:3, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-09T06:29:41Z" name="configAPI" finished-at="2022-06-09T06:29:43Z" duration-ms="1842" status="PASS">
+        <test-method signature="configAPI()[pri:3, instance:cobaqaautomation.cobamay2022.CobaAPITest@6a9287b1]" started-at="2022-06-21T06:40:43Z" name="configAPI" finished-at="2022-06-21T06:40:45Z" duration-ms="2741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAPI -->
       </class> <!-- cobaqaautomation.cobamay2022.CobaAPITest -->
       <class name="cobaqaautomation.cobamay2022.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:cobaqaautomation.cobamay2022.AppTest@66eb985d]" started-at="2022-06-09T06:28:52Z" name="shouldAnswerWithTrue" finished-at="2022-06-09T06:28:52Z" duration-ms="63" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:cobaqaautomation.cobamay2022.AppTest@66eb985d]" started-at="2022-06-21T06:39:51Z" name="shouldAnswerWithTrue" finished-at="2022-06-21T06:39:51Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- cobaqaautomation.cobamay2022.AppTest -->
       <class name="cobaqaautomation.cobamay2022.CobaGraphQLTest">
-        <test-method signature="checkCEO()[pri:0, instance:cobaqaautomation.cobamay2022.CobaGraphQLTest@6c8a68c1]" started-at="2022-06-09T06:29:08Z" name="checkCEO" finished-at="2022-06-09T06:29:13Z" duration-ms="4786" status="PASS">
+        <test-method signature="checkCEO()[pri:0, instance:cobaqaautomation.cobamay2022.CobaGraphQLTest@6c8a68c1]" started-at="2022-06-21T06:40:08Z" name="checkCEO" finished-at="2022-06-21T06:40:13Z" duration-ms="4213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCEO -->
-        <test-method signature="getLaunchesWithVariables()[pri:0, instance:cobaqaautomation.cobamay2022.CobaGraphQLTest@6c8a68c1]" started-at="2022-06-09T06:29:13Z" name="getLaunchesWithVariables" finished-at="2022-06-09T06:29:15Z" duration-ms="2347" status="PASS">
+        <test-method signature="getLaunchesWithVariables()[pri:0, instance:cobaqaautomation.cobamay2022.CobaGraphQLTest@6c8a68c1]" started-at="2022-06-21T06:40:13Z" name="getLaunchesWithVariables" finished-at="2022-06-21T06:40:14Z" duration-ms="1922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLaunchesWithVariables -->
       </class> <!-- cobaqaautomation.cobamay2022.CobaGraphQLTest -->
       <class name="cobaqaautomation.cobamay2022.CobaCommonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-09T06:28:52Z" name="setUp" finished-at="2022-06-09T06:28:56Z" duration-ms="4381" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-21T06:39:51Z" name="setUp" finished-at="2022-06-21T06:39:55Z" duration-ms="3756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSwitching()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-09T06:28:56Z" name="testSwitching" finished-at="2022-06-09T06:29:08Z" duration-ms="11453" status="PASS">
+        <test-method signature="testSwitching()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-21T06:39:55Z" name="testSwitching" finished-at="2022-06-21T06:40:08Z" duration-ms="13237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSwitching -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-09T06:29:08Z" name="tearDown" finished-at="2022-06-09T06:29:08Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cobaqaautomation.cobamay2022.CobaCommonTest@75504cef]" started-at="2022-06-21T06:40:08Z" name="tearDown" finished-at="2022-06-21T06:40:08Z" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

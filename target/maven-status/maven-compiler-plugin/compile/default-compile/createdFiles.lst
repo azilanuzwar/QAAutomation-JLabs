@@ -3,6 +3,7 @@ cobaqaautomation\cobamay2022\pages\CobaLoginPage.class
 cobaqaautomation\cobamay2022\pages\CobaInventoryPage.class
 cobaqaautomation\cobamay2022\utils\CobaGraphQLRequestBuilder.class
 tugasminggu1dan2\TugasTreeMap.class
+cobaqaautomation\cobamay2022\pages\LoginPage.class
 cobaqaautomation\cobamay2022\pages\CobaCheckOutStep1Page.class
 cobaqaautomation\cobamay2022\yopmailpages\YopmailBasePage.class
 tugasminggu1dan2\TugasKalkulator.class
@@ -14,6 +15,7 @@ cobaqaautomation\cobamay2022\pages\CobaBasePage.class
 tugasminggu1dan2\TugasTreeSet.class
 cobaqaautomation\cobamay2022\pages\CobaCartPage.class
 cobaqaautomation\cobamay2022\pages\CobaLoginPageFactory.class
+cobaqaautomation\cobamay2022\utils\BrowserFactory.class
 cobaqaautomation\cobamay2022\pages\CobaCheckOutStep2Page.class
 cobaqaautomation\cobamay2022\pages\CobaCommonPage.class
 cobaqaautomation\cobamay2022\yopmailpages\YopmailLoginPage.class

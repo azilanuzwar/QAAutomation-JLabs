@@ -124,7 +124,7 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 	} 
 		
 	@Test
-	public void checkOutOverStepOne () {
+	public void checkOutStepTwo () {
 		String username = "standard_user";
 		String password = "secret_sauce";
 		
@@ -143,11 +143,28 @@ public class CobaWebTestAfterPOM extends CobaBaseWebTest{
 		System.out.println(actualText);
 		String expectedText = "Shipping Information:";
 	 	Assert.assertTrue(actualText.contains(expectedText));
+	 	
+	}
+		@Test
+		public void checkOutCompleted () {
+		String username = "standard_user";
+		String password = "secret_sauce";
+		
+		loginPage.loginWeb(username, password);
+		inventoryPage.addToCart();
+		cartPage.getCart();
+	    cartPage.checkOut();
 	    
+	    String firstName = "Azila";
+		String lastName = "Nuzwar";
+		String postalCode = "201197";
+		
+		informationPage.yourInformation(firstName, lastName, postalCode);
+	
 	 	overviewPage.buttonFinish();
 	 	
 	 	String actualText2 = driver.get().findElement(By.xpath("//*[@id=\"checkout_complete_container\"]/div")).getText();
-		System.out.println(actualText);
+		//System.out.println(actualText);
 		String expectedText2 = "Your order has been dispatched, and will arrive just as fast as the pony can get there!";
 	 	Assert.assertTrue(actualText2.contains(expectedText2));
 	}
